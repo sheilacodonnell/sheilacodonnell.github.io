@@ -1,0 +1,21 @@
+# Site settings
+title: Sheila O'Donnell
+header-img: img/home-bg.png
+email: sheila@contexttravel.com
+copyright_name: sheilacodonnell
+description: > # this means to ignore newlines until "baseurl:"
+  sheila's thoughts
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  sheilacodonnell
+learn_profile: sheilacodonnell
+email_username: sheila@contexttravel.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
